@@ -12,7 +12,7 @@ pipeline {
        steps {
           script {
           echo "username is : $MY_CRED_USR"
-          echo "password is : $MY_CRED_PWD"
+          echo "password is : $MY_CRED_PSW"
           }
        }
     }
