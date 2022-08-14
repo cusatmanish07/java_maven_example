@@ -12,18 +12,12 @@
 	<name>Maven example project for Java</name>
 	<description>Maven example project that cover most of the maven lifecycle (validation source code, JAR package, ...)</description>
 	<inceptionYear>2015</inceptionYear>
-	<organization>
-		<name>Fabio Pirola</name>
-		<url>//pirola.org</url>
-	</organization>
-	<url>//pirola.org</url>
 
 	<developers>
 		<developer>
 			<id>ID...</id>
-			<name>Fabio Pirola</name>
+			<name>Manish Roy</name>
 			<email>FABIO ...(N0T SPAM ME)... AT PIROLA DoT ORG</email>
-			<url>//pirola.org</url>
 			<roles>
 				<role>Developer</role>
 			</roles>
