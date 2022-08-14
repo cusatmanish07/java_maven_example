@@ -1,10 +1,22 @@
 pipeline {
  agent any
- tools {
+ environment {
+  MY_CRED = credentials ('dockerHubCred')
+ }
+  tools {
       maven 'mvn'
       jdk 'myJDk'
  }
   stages {
+    stage('credinfo'){
+       steps {
+          script {
+          echo "username is : $MY_CRED_USR"
+          echo "password is : $MY_CRED_PWD"
+          }
+       }
+    }
+
     stage('clean') {
        steps {
            script {
