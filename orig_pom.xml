@@ -63,13 +63,13 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<!-- Example for PostgresSQL -->
+				<!-- Example for H2 -->
 				<sonar.jdbc.url>
 					<!-- Local SonarQube docker address -->
-					sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube?currentSchema=sonarqubeschema
+					jdbc:h2:tcp://localhost:9092/sonar
 				</sonar.jdbc.url>
-				<sonar.jdbc.username>sonarqube</sonar.jdbc.username>
-				<sonar.jdbc.password>sonarqube123</sonar.jdbc.password>
+				<sonar.jdbc.username>sonar</sonar.jdbc.username>
+				<sonar.jdbc.password>sonar</sonar.jdbc.password>
 
 				<!-- Optional URL to server. Default value is http://localhost:9000 -->
 				<sonar.host.url>
