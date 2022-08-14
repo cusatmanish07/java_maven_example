@@ -17,7 +17,7 @@ pipeline {
          }
        }  
     }
-    stage('verify') {
+    stage('install') {
        steps {
          script {
                  sh '''mvn install '''
