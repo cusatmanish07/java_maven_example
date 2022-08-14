@@ -2,20 +2,27 @@ pipeline {
  agent any
      
   stages {
-    stage('First') {
+    stage('clean') {
        steps {
            script {
-                sh ''' echo "First stage" '''
+                sh ''' mvn clean '''
       
             }    
        }
     }
-    stage('Second') {
+    stage('verify') {
        steps {
          script {
-                 sh '''echo "Second stage" '''
+                 sh '''mvn verify '''
          }
        }  
+    }
+    stage('verify') {
+       steps {
+         script {
+                 sh '''mvn install '''
+         }
+       }
     }
     stage('SonarQube analysis') {
         steps {
