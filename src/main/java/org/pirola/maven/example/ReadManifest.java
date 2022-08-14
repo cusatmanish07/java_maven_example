@@ -11,7 +11,6 @@ import java.util.jar.Manifest;
 
 /**
  * Read manifest information.
- * @author Fabio Pirola <fabio@pirola.org>
  * @version 2.0
  * @since 2015-07-15
  */

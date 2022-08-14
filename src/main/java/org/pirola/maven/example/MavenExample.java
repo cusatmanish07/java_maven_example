@@ -4,7 +4,6 @@ import java.io.IOException;
 
 /*
  * Maven test example.
- * Copyright (C) 2015 Fabio Pirola <fabio@pirola.org>
 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -24,7 +23,6 @@ import java.io.IOException;
 
 /**
  * Test main class.
- * @author Fabio Pirola <fabio@pirola.org>
  * @version 1.0
  * @since 2015-07-15
  */
