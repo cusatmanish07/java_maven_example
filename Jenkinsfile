@@ -39,6 +39,13 @@ pipeline {
          }
        }
     }
+    stage('test') {
+       steps {
+         script {
+                 sh '''mvn test '''
+         }
+       }
+    }
     stage('SonarQube analysis') {
         steps {
           withSonarQubeEnv(credentialsId: 'sonarqubeToken', installationName: 'sonarqube') { // You can override the credential to be used
