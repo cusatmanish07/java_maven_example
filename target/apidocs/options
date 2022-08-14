@@ -1,0 +1,22 @@
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/manishkumarroy/demoProject/maven-example-project-for-java/src/main/java:/Users/manishkumarroy/demoProject/maven-example-project-for-java/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2015&#x2013;2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/manishkumarroy/demoProject/maven-example-project-for-java/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Maven example project for Java 2.0 API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' '/Users/manishkumarroy/demoProject/maven-example-project-for-java/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Maven example project for Java 2.0 API'
